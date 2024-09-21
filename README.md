@@ -1,27 +1,28 @@
 # Computer-Vision-Fish
 
-Voici le resumee de mon travail Pour ce projet :
+Résumé de mon travail pour ce projet :
+
 # Objectif : 
-Développement des techniques d’intelligence artificielle
-pour la reconnaissance et la classification des poissons à
-partir d’images
+Développement de techniques d'intelligence artificielle pour la reconnaissance et la classification des poissons à partir d'images.
 
-# Donnees originales : 
-Videos
+# Données originales :
+Vidéos.
 
-# Principales etapes suivi pour arriver a l'objectif :
-## Analyse des donnees
-Pour une meilleur suivi de qualite, nous avons analysees les videos. Cliquez sur [Analyse_Exploratoire.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Analyse_Exploratoire.ipynb) , l'analyse faite.
-## Extractions des images a partir des videos :
-Avec un nombre des donnees videos recus, nous devons passer a l'extraction des images pour l'apprentissage automatique. cliquez sur [Video_Images_Extraction.py](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Video_Images_Extraction.py) pour extraire les images. et cliquer sur [Extract_Quality_Images.py](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Extract_Quality_Images.py)
+# Principales étapes suivies pour atteindre l'objectif :
+## Analyse des données 
+Pour assurer une meilleure qualité du traitement, nous avons effectué une analyse des vidéos. Cliquez sur [Analyse_Exploratoire.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Analyse_Exploratoire.ipynb), pour accéder aux détails de l'analyse.
+## Extraction des images à partir des vidéos 
+À partir des données vidéos reçues, nous avons procédé à l'extraction d'images pour l'apprentissage automatique. Cliquez sur [Video_Images_Extraction.py](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Video_Images_Extraction.py) pour extraire les images, et sur [Extract_Quality_Images.py](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Extract_Quality_Images.py), pour trier les images de bonnes et mauvaises qualités.
 
-## Pretraitement des images :
-Les images enregistree dans un fichier csv ont besoins de pretraitement  pour qu'il soit compatible avec l'usage de d'apprentissage. cliquer sur [Preparations_donnees.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Preparations_donnees.ipynb), pour le detail.
+## Prétraitement des images 
+Les images, enregistrées dans un fichier CSV, nécessitent un prétraitement pour être compatibles avec les algorithmes d'apprentissage. Cliquez sur [Preparations_donnees.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Preparations_donnees.ipynb), pour plus de détails.
+
+Structure des données après la préparation :
 
 ![Texte alternatif](https://miro.medium.com/v2/resize:fit:828/format:webp/1*U-fN4t-mq8EDqfgafjM_zw.png))
 
 
-## Apprentissage automatique pour la detection :
+## Apprentissage automatique pour la détection des poissons :
 ### Methode 1 : YOLO
-Cliquer sur [Yolov5_training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Yolov5_training.ipynb), pour entrainer nos images avec YOLO version 5. Cliquer sur [Yolov8_training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Yolov8_training.ipynb), pour entrainer avec YOLO version 8.
+Cliquer sur [Yolov5_training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Yolov5_training.ipynb), pour entraîner nos images avec YOLO version 5. Cliquer sur [Yolov8_training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Yolov8_training.ipynb), pour entraîner avec YOLO version 8.
 ### Methode 2 : Detectron2
