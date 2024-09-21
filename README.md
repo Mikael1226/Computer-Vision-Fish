@@ -17,3 +17,5 @@ Avec un nombre des donnees videos recus, nous devons passer a l'extraction des i
 
 ## Pretraitement des images :
 Les images enregistree dans un fichier csv ont besoins de pretraitement  pour qu'il soit compatible avec l'usage de d'apprentissage. cliquer sur [Preparations_donnees.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Preparations_donnees.ipynb), pour le detail.
+
+## Apprentissage automatique pour la detection :
