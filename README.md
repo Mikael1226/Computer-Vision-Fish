@@ -26,6 +26,6 @@ Structure des données après la préparation :
 ### Methode 1 : YOLO
 Cliquer sur [Yolov5_training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Yolov5_training.ipynb), pour entraîner nos images avec YOLO version 5. Cliquer sur [Yolov8_training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Yolov8_training.ipynb), pour entraîner avec YOLO version 8.
 ### Methode 2 : Detectron2
-
+Cliquer sur [Detectron2_Training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Detectron2_Training.ipynb), pour entraîner nos images avec Detectron2.
 ## Apprentissage automatique pour la classification des poissons :
 Données deja entrainées sur une applications developpée au sein de mon laboratoire.
