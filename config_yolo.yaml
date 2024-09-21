@@ -1,0 +1,13 @@
+train: chemin/vers/Data/train # le dossier Data etant le dossier est contenus dans le meme dossier de Yolov5 ou 8
+val: chemin/vers/Data/val 
+nc: 9 # Nombres totale d'espéces
+names: ['Poissons',
+        'Crinoide',
+        'Autre_Espece',
+        'Concombre de Mer',
+        'Echinoderme',
+        'Posidonie',
+        'Amphipode',
+        'Dechet',
+        'Crevette'
+]
