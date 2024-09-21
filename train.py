@@ -32,8 +32,8 @@ if __name__ == "__main__":
     """
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--class-list', default='./classes.names')
-    parser.add_argument('--data-dir', default='./Methode_Detectron2')
+    parser.add_argument('--class-list', default='./config_detectron2.names')
+    parser.add_argument('--data-dir', default='./Data_Detectron2')
     parser.add_argument('--output-dir', default='./output')
     parser.add_argument('--device', default='cuda')  # Change to 'cuda' if available
     parser.add_argument('--learning-rate', default=0.00025)
