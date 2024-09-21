@@ -18,6 +18,9 @@ Avec un nombre des donnees videos recus, nous devons passer a l'extraction des i
 ## Pretraitement des images :
 Les images enregistree dans un fichier csv ont besoins de pretraitement  pour qu'il soit compatible avec l'usage de d'apprentissage. cliquer sur [Preparations_donnees.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Preparations_donnees.ipynb), pour le detail.
 
+![Texte alternatif](https://miro.medium.com/v2/resize:fit:828/format:webp/1*U-fN4t-mq8EDqfgafjM_zw.png))
+
+
 ## Apprentissage automatique pour la detection :
 ### Methode 1 : YOLO
 Cliquer sur [Yolov5_training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Yolov5_training.ipynb), pour entrainer nos images avec YOLO version 5. Cliquer sur [Yolov8_training.ipynb](https://github.com/Mikael1226/Computer-Vision-Fish/blob/main/Yolov8_training.ipynb), pour entrainer avec YOLO version 8.
